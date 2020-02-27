@@ -1,0 +1,32 @@
+{
+    "name": "corealg/bitbucket",
+    "description": "Bitbucket issue creator",
+    "type": "library",
+    "require": {
+        "php": "^7.2",
+        "corealg/curl": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mizanur Rahman",
+            "email": "mizan3008@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "CoreAlg\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CoreAlg\\BitbucketServiceProvider"
+            ]
+        }
+    }
+}
